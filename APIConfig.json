@@ -1,0 +1,4 @@
+{
+	"chartFinderToken": "/api/authserver.api/oauth2/token",
+	"uploadAttach": "/api/chartfinder.api/api/chart/uploadattach"		
+}

@@ -1,0 +1,72 @@
+{
+	"QA01": {
+		"URL": "https://unityqa01.cioxhealth.com/cipui/prelogin.html",
+		"SmartDBConfig": {
+			"vendor": "ORACLE",
+			"hostName": "smlgqa01.smartcorp.net",
+			"portNumber": 1528,
+			"dbName": "smlogqa1",
+			"userName": "SMART",
+			"password": "smart"
+		},
+		"ConnexDBConfig": {
+			"vendor": "POSTGRESQL",
+			"hostName": "ciox-eus1-hsclarity-qa01-postgres-hs-01.postgres.database.azure.com",
+			"portNumber": 5432,
+			"dbName": "hs",
+			"userName": "hs@ciox-eus1-hsclarity-qa01-postgres-hs-01.postgres.database.azure.com",
+			"password": "hs_qa01"
+		},
+		"ROIDBConfig": {
+			"vendor": "ORACLE",
+			"hostName": "roiqa01.smartcorp.net",
+			"portNumber": 1525,
+			"dbName": "roiqa01",
+			"userName": "ROI",
+			"password": "Qa_roiadm_01"
+		},
+		"ERouteDBConfig": {
+			"vendor": "ORACLE",
+			"hostName": "erqa01.smartcorp.net",
+			"portNumber": 1529,
+			"dbName": "erqa01",
+			"userName": "EROUTE",
+			"password": "djSfb_01"
+		},
+		"EmailConfig": {
+			"recipientEmail": "intake-qa01@cioxhealth.com",
+			"senderEmail": "haripriya.ganesan@cioxhealth.com",
+			"senderEmailPwd": "",
+			"emailSMTPServerHost": "smtp.office365.com",
+			"emailSMTPServerPort": 587,
+			"emailPOPServerHost": "outlook.office365.com",
+			"emailPOPServerPort": 995
+		},
+		"BatchProcessingConfig": {
+			"hostName": "Alpqahsilv01",
+			"inputDir": "\\\\devqa\\artifacts2\\bhsil\\QA01\\input",
+			"errorDir": "\\\\devqa\\artifacts2\\bhsil\\QA01\\error",
+			"archiveDir": "\\\\devqa\\artifacts2\\bhsil\\QA01\\archive",
+			"processingDir": "\\\\devqa\\artifacts2\\bhsil\\QA01\\processing",
+			"userName": "svc_hs_automation",
+			"password": "Redbull1",
+			"ESL_SiteGroup": "Automation",
+			"PRISML_SiteGroup": "JAMAICA"
+		},
+		"HSILDBConfig": {
+			"vendor": "ORACLE",
+			"hostName": "smlgqa01.smartcorp.net",
+			"portNumber": 1528,
+			"dbName": "SMLOGQA1",
+			"userName": "HSIL",
+			"password": "Zjvwd5th_Qa1"
+		},
+		"AudaURL": "https://edeliveryqa.cioxhealth.com/portal/Login.aspx",
+		"AudaDocLoc": "\\\\corp-qaweb-01\\c$\\RacDocuments\\Download\\",
+		"CorpwebURL": "http://alpqawsvm11/smart/Logon.asp",
+		"hsadminURL": "http://unityqa01.cioxhealth.com/hsadmin/#/login",
+		"apiBaseURI": "https://qachartfinder.cioxhealth.com/"
+		
+	},
+
+}
